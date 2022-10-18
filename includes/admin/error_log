@@ -1,0 +1,3 @@
+[28-Jul-2022 11:34:33 America/New_York] PHP Notice:  Undefined variable: drugId in /home/omsao/health.omsao.health/includes/admin/delete_file.inc.php on line 44
+[28-Jul-2022 11:34:33 America/New_York] PHP Notice:  Undefined variable: drugId in /home/omsao/health.omsao.health/includes/admin/delete_file.inc.php on line 56
+[28-Jul-2022 11:34:33 America/New_York] PHP Notice:  Undefined variable: drugId in /home/omsao/health.omsao.health/includes/admin/delete_file.inc.php on line 58

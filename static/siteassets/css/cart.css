@@ -1,0 +1,227 @@
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #ffffff;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  color: #5e6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:nth-child(3) {
+  border-top: 1px solid #e1e8ee;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+/* Buttons -  Delete and Like */
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+.delete-btn {
+  display: inline-block;
+  cursor: pointer;
+  /* width: 15px; */
+  font-weight: 500 !important;
+  font-size: 19px;
+  /* height: 17px; */
+  /* background: url("https://designmodo.com/demo/shopping-cart/delete-icn.svg") no-repeat center; */
+  color: #aab8c2;
+  margin-right: 19px;
+}
+
+span.delete-btn:hover {
+  color: red;
+}
+
+span.delete-btn i {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  display: inline-block;
+  background: url("https://designmodo.com/demo/shopping-cart/twitter-heart.png");
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+/* Product Image */
+.image {
+  margin-right: 50px;
+}
+
+/* Product Description */
+.description {
+  padding-top: 28px;
+  margin-right: 61px;
+  width: 185px;
+}
+
+.image img {
+  /* width: 50%; */
+}
+
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 400;
+}
+
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 600;
+  margin-top: 0px;
+  font-size: 16px;
+  color: #86939e;
+}
+
+/* Product Quantity */
+.quantity {
+  padding-top: 28px;
+  margin-right: 60px;
+  width: 231px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+.prices {
+  font-size: 16px;
+}
+.items {
+  font-size: 16px;
+}
+
+.quantity button[class*="btn"] {
+  width: 30px;
+  height: 30px;
+  background-color: #e1e8ee;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+.quantity button:focus,
+input:focus {
+  outline: 0;
+}
+
+/* Total Price */
+.total-price {
+  width: auto;
+  padding-top: 28px;
+  text-align: center;
+  font-size: 17px;
+  color: #43484d;
+  font-weight: 400;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 4px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+}
+/* Billing Designs */
+
+/* Billing Designs */
+
+.bill_exists{
+  padding: 6px 20px;
+}
+.bill_exists .head{
+  font-size: 15px;
+  color: #c2a31f;
+  margin-bottom: 0px;
+  text-transform:uppercase;
+}
+.bill_exists .sub-head{
+  font-size: 13px;
+  color: #969695;
+  margin-bottom: 0px;
+}
+.bill_exists .text{
+  font-size: 14px;
+  color: #969695;
+  margin-bottom: 0px;
+}

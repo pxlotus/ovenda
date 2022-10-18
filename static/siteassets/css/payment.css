@@ -1,0 +1,106 @@
+
+.mt-20{
+    margin-top: 50px !important;
+}
+
+p:last-child {
+    margin: 0px;
+}
+
+a {
+    color: #71748d;
+}
+
+a.add_address p {
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.float-right {
+    float: right;
+}
+
+.proceed_btn {
+    background-color: bisque;
+    width: 70% !important;
+    text-align: center;
+    float: left;
+    border-radius: 33px;
+    padding: 3px 12px;
+    color: #747474;
+}
+
+.float-left {
+    float: left;
+}
+.card-header a:hover{
+    color: red;
+}
+
+a:hover {
+    color: #ff407b;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #ff407b;
+    border-color: #ff407b;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 9px 16px;
+    border-radius: 2px;
+}
+
+.tab-vertical .nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 0px;
+    border-bottom: 0;
+}
+
+.tab-vertical .nav.nav-tabs .nav-item {
+    margin-bottom: 6px;
+}
+
+.tab-vertical .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: #fff;
+    padding: 17px 49px;
+    color: #71748d;
+    background-color: #dddde8;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.tab-vertical .nav-tabs .nav-link.active {
+    color: #5969ff;
+    background-color: #fff !important;
+    border-color: transparent !important;
+}
+
+.tab-vertical .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.tab-vertical .tab-content {
+    overflow: auto;
+    -webkit-border-radius: 0px 4px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 4px;
+    border-radius: 0px 4px 4px 4px;
+    background: #fff;
+    padding: 30px;
+}

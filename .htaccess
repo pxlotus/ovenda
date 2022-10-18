@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On   
+ErrorDocument 404 /404.html
+# #  Rules1 Removing http:// url and only allowing https://
+# RewriteCond %{HTTP_HOST} health\.health [NC]
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ http://localhost/omsao/$1 [R,L]
+# #  Rule2 Removing files extension form the site
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteRule ^product/([a-zA-Z0-9_-]+)$ product-details.php?id=$1 [L]
+RewriteRule ^category/([a-zA-Z0-9_-]+)$ category-products.php?id=$1 [L]
+RewriteRule ^categories/([a-zA-Z0-9_-]+)$ maincategory-products.php?id=$1 [L]
+RewriteRule ^brands/([a-zA-Z0-9_-]+)$ brand-products.php?id=$1 [L]
+# RewriteRule ^property/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ details.php?id=$1&name=$2 [L,QSA,NC]            
+</IfModule>

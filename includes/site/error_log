@@ -1,0 +1,13 @@
+[22-Aug-2022 10:44:23 America/New_York] PHP Notice:  Trying to get property 'password' of non-object in /home/omsao/ovenda.omsao.health/includes/site/auth_file.inc.php on line 14
+[22-Aug-2022 11:32:19 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 15
+[29-Aug-2022 05:19:15 America/New_York] PHP Notice:  Undefined index: usrId in /home/omsao/ovenda.omsao.health/includes/site/rm-cart-item.inc.php on line 33
+[29-Aug-2022 05:19:15 America/New_York] PHP Notice:  Undefined index: cartId in /home/omsao/ovenda.omsao.health/includes/site/rm-cart-item.inc.php on line 34
+[03-Sep-2022 04:28:57 America/New_York] PHP Notice:  Undefined index: usrId in /home/omsao/ovenda.omsao.health/includes/site/rm-cart-item.inc.php on line 33
+[03-Sep-2022 04:28:57 America/New_York] PHP Notice:  Undefined index: cartId in /home/omsao/ovenda.omsao.health/includes/site/rm-cart-item.inc.php on line 34
+[28-Sep-2022 09:42:36 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 15
+[28-Sep-2022 11:35:35 America/New_York] PHP Notice:  Undefined index: cartId in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 9
+[28-Sep-2022 11:35:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 15
+[28-Sep-2022 11:35:38 America/New_York] PHP Notice:  Undefined index: cartId in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 9
+[28-Sep-2022 11:35:38 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 15
+[04-Oct-2022 03:21:59 America/New_York] PHP Notice:  Trying to get property 'password' of non-object in /home/omsao/ovenda.omsao.health/includes/site/auth_file.inc.php on line 14
+[04-Oct-2022 04:05:46 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/omsao/ovenda.omsao.health/includes/site/add_to_cart.inc.php on line 15

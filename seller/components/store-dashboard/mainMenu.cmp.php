@@ -3,20 +3,20 @@
         <button type="button" class="btn-toggle-offcanvas"><i class="fa fa-arrow-left"></i></button>
         <div class="sidebar-scroll">
             <div class="user-account">
-                <img src="assets/images/user.png" class="rounded-circle user-photo" alt="User Profile Picture">
+                <img src="../static/seller/assets/images/user.png" class="rounded-circle user-photo" alt="User Profile Picture">
                 <div class="dropdown">
                     <span>Welcome,</span>
                     <a href="javascript:void(0);" class="dropdown-toggle user-name" data-toggle="dropdown"><strong>Pamela Petrus</strong></a>
                     <ul class="dropdown-menu dropdown-menu-right account">
-                        <li><a href="page-profile2.html"><i class="icon-user"></i>My Profile</a></li>
-                        <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
-                        <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
+                        <li><a href="profile.php"><i class="icon-user"></i> Account</a></li>
+                        <li><a href="app-inbox.html"><i class="icon-building"></i> Stores </a></li>
+                        <li><a href="javascript:void(0);"><i class="icon-settings"></i> Settings </a></li>
                         <li class="divider"></li>
                         <li><a href="page-login.html"><i class="icon-power"></i>Logout</a></li>
                     </ul>
                 </div>
                 <hr>
-                <ul class="row list-unstyled">
+                <!-- <ul class="row list-unstyled">
                     <li class="col-4">
                         <small>Sales</small>
                         <h6>561</h6>
@@ -29,7 +29,7 @@
                         <small>Revenue</small>
                         <h6>$23B</h6>
                     </li>
-                </ul>
+                </ul> -->
             </div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs">
@@ -51,147 +51,26 @@
                                 </ul> -->
                             </li>
                             <li>
-                                <a href="#App" class="has-arrow"><i class="fa fa-th-large"></i><span>Ready App</span></a>
-                                <ul>
-                                    <li><a href="app-inbox.html">Inbox</a></li>
-                                    <li><a href="app-chat.html">Chat</a></li>
-                                    <li><a href="app-calendar.html">Calendar</a></li>                                    
-                                    <li><a href="app-contact.html">Contact list</a></li>
-                                    <li><a href="app-contact-grid.html">Contact Card <span class="badge badge-warning float-right">New</span></a></li>
-                                    <li><a href="app-taskboard.html">Taskboard</a></li>
-                                    <li><a href="javascript:void(0);"><span>Blog</span></a>
-                                        <ul>
-                                            <li><a href="blog-dashboard.html">Dashboard</a></li>
-                                            <li><a href="blog-post.html">New Post</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="blog-details.html">Blog Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="javascript:void(0);"><span>File Manager</span></a>
-                                        <ul>
-                                            <li><a href="file-dashboard.html">Dashboard</a></li>
-                                            <li><a href="file-documents.html">Documents</a></li>
-                                            <li><a href="file-media.html">Media</a></li>
-                                            <li><a href="file-images.html">Images</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href="./products.php"><i class="fa fa-th-large"></i><span>Products</span></a>                               
                             </li>
                             <li>
-                                <a href="#Widgets" class="has-arrow"><i class="fa fa-puzzle-piece"></i><span>Widgets</span></a>
-                                <ul>                                    
-                                    <li><a href="widgets-statistics.html">Statistics</a></li>
-                                    <li><a href="widgets-data.html">Data</a></li>
-                                    <li><a href="widgets-chart.html">Chart</a></li>
-                                    <li><a href="widgets-weather.html">Weather</a></li>
-                                    <li><a href="widgets-social.html">Social</a></li>
-                                    <li><a href="widgets-blog.html">Blog</a></li>
-                                    <li><a href="widgets-ecommerce.html">eCommerce</a></li>
-                                </ul>
+                                <a href="./orders.php"><i class="fa fa-puzzle-piece"></i><span>Orders</span></a>                               
                             </li>
                             <li>
-                                <a href="#uiElements" class="has-arrow"><i class="fa fa-diamond"></i><span>UI Elements</span></a>
-                                <ul>
-                                    <li><a href="ui-typography.html">Typography</a></li>
-                                    <li><a href="ui-tabs.html">Tabs</a></li>
-                                    <li><a href="ui-buttons.html">Buttons</a></li>
-                                    <li><a href="ui-bootstrap.html">Bootstrap UI</a></li>
-                                    <li><a href="ui-icons.html">Icons</a></li>
-                                    <li><a href="ui-notifications.html">Notifications</a></li>
-                                    <li><a href="ui-colors.html">Colors</a></li>
-                                    <li><a href="ui-dialogs.html">Dialogs</a></li>                                    
-                                    <li><a href="ui-list-group.html">List Group</a></li>
-                                    <li><a href="ui-media-object.html">Media Object</a></li>
-                                    <li><a href="ui-modals.html">Modals</a></li>
-                                    <li><a href="ui-nestable.html">Nestable</a></li>
-                                    <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                                    <li><a href="ui-range-sliders.html">Range Sliders</a></li>
-                                    <li><a href="ui-treeview.html">Treeview</a></li>
-                                </ul>
+                                <a href="#uiElements"><i class="fa fa-diamond"></i><span>Customers</span></a>                                
                             </li>
                             <li>
-                                <a href="#charts" class="has-arrow"><i class="fa fa-area-chart"></i><span>Charts</span></a>
-                                <ul>
-                                    <li><a href="chart-apex.html">Apex</a> </li>
-                                    <li><a href="chart-c3.html">C3 Charts</a></li>
-                                    <li><a href="chart-morris.html">Morris</a> </li>
-                                    <li><a href="chart-flot.html">Flot</a> </li>
-                                    <li><a href="chart-chartjs.html">ChartJS</a> </li>                                    
-                                    <li><a href="chart-jquery-knob.html">Jquery Knob</a> </li>
-                                    <li><a href="chart-sparkline.html">Sparkline Chart</a></li>
-                                    <li><a href="chart-peity.html">Peity</a></li>
-                                    <li><a href="chart-gauges.html">Gauges</a></li>
-                                </ul>
+                                <a href="#charts"><i class="fa fa-area-chart"></i><span>Finances</span></a>                                
                             </li>
                             <li>
-                                <a href="#forms" class="has-arrow"><i class="fa fa-pencil"></i><span>Forms</span></a>
-                                <ul>
-                                    <li><a href="forms-validation.html">Form Validation</a></li>
-                                    <li><a href="forms-advanced.html">Advanced Elements</a></li>
-                                    <li><a href="forms-basic.html">Basic Elements</a></li>
-                                    <li><a href="forms-wizard.html">Form Wizard</a></li>
-                                    <li><a href="forms-dragdropupload.html">Drag &amp; Drop Upload</a></li>
-                                    <li><a href="forms-cropping.html">Image Cropping</a></li>
-                                    <li><a href="forms-summernote.html">Summernote</a></li>
-                                    <li><a href="forms-editors.html">CKEditor</a></li>
-                                    <li><a href="forms-markdown.html">Markdown</a></li>
-                                </ul>
+                                <a href="#forms"><i class="fa fa-pencil"></i><span>Reviews</span></a>                               
                             </li>
                             <li>
-                                <a href="#Tables" class="has-arrow"><i class="fa fa-table"></i><span>Tables</span></a>
+                                <a href="#Tables" class="has-arrow"><i class="fa fa-table"></i><span>Tutorials</span></a>
                                 <ul>
-                                    <li><a href="table-basic.html">Tables Example<span class="badge badge-info float-right">New</span></a> </li>
-                                    <li><a href="table-normal.html">Normal Tables</a> </li>
-                                    <li><a href="table-jquery-datatable.html">Jquery Datatables</a> </li>
-                                    <li><a href="table-editable.html">Editable Tables</a> </li>
-                                    <li><a href="table-color.html">Tables Color</a> </li>
-                                    <li><a href="table-filter.html">Table Filter <span class="badge badge-info float-right">New</span></a> </li>
-                                    <li><a href="table-dragger.html">Table dragger <span class="badge badge-info float-right">New</span></a> </li>
+                                    <li><a href="table-basic.html">How to add products<span class="badge badge-info float-right">New</span></a> </li>                                   
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="#Authentication" class="has-arrow"><i class="fa fa-lock"></i><span>Authentication</span></a>
-                                <ul>
-                                    <li><a href="page-login.html">Login</a></li>
-                                    <li><a href="page-register.html">Register</a></li>
-                                    <li><a href="page-lockscreen.html">Lockscreen</a></li>
-                                    <li><a href="page-forgot-password.html">Forgot Password</a></li>
-                                    <li><a href="page-404.html">Page 404</a></li>
-                                    <li><a href="page-403.html">Page 403</a></li>
-                                    <li><a href="page-500.html">Page 500</a></li>
-                                    <li><a href="page-503.html">Page 503</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#Pages" class="has-arrow"><i class="fa fa-file"></i><span>Extra Pages</span></a>
-                                <ul>
-                                    <li><a href="page-blank.html">Blank Page</a> </li>
-                                    <li><a href="page-profile.html">Profile <span class="badge badge-default float-right">v1</span></a></li>
-                                    <li><a href="page-profile2.html">Profile <span class="badge badge-warning float-right">v2</span></a></li>
-                                    <li><a href="page-gallery.html">Image Gallery <span class="badge badge-default float-right">v1</span></a> </li>
-                                    <li><a href="page-gallery2.html">Image Gallery <span class="badge badge-warning float-right">v2</span></a> </li>
-                                    <li><a href="page-timeline.html">Timeline</a></li>
-                                    <li><a href="page-timeline-h.html">Horizontal Timeline</a></li>
-                                    <li><a href="page-pricing.html">Pricing</a></li>
-                                    <li><a href="page-invoices.html">Invoices</a></li>
-                                    <li><a href="page-invoices2.html">Invoices <span class="badge badge-warning float-right">v2</span></a></li>
-                                    <li><a href="page-search-results.html">Search Results</a></li>
-                                    <li><a href="page-helper-class.html">Helper Classes</a></li>
-                                    <li><a href="page-teams-board.html">Teams Board</a></li>
-                                    <li><a href="page-projects-list.html">Projects List</a></li>
-                                    <li><a href="page-maintenance.html">Maintenance</a></li>
-                                    <li><a href="page-testimonials.html">Testimonials</a></li>
-                                    <li><a href="page-faq.html">FAQ</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#Maps" class="has-arrow"><i class="fa fa-map"></i><span>Maps</span></a>
-                                <ul>
-                                    <li><a href="map-google.html">Google Map</a></li>
-                                    <li><a href="map-yandex.html">Yandex Map</a></li>
-                                    <li><a href="map-jvectormap.html">jVector Map</a></li>
-                                </ul>
-                            </li>
+                            </li>                            
                         </ul>
                     </nav>
                 </div>

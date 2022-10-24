@@ -23,7 +23,7 @@
                         </div>
                     </div>
 </div> -->
-<div class="row clearfix">
+            <div class="row clearfix">
                 <div class="col-md-12">
                     <div class="card patients-list">
                         <div class="header">

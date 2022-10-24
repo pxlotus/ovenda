@@ -1,6 +1,6 @@
-<section>
-    <form action="../includes/admin/submissions.inc.php" method="POST" enctype="multipart/form-data">
-         <div class="row clearfix">
+    <section>
+        <form action="../includes/admin/submissions.inc.php" method="POST" enctype="multipart/form-data">
+            <div class="row clearfix">
                 <div class="col-lg-10 col-md-12 col-sm-12 m-auto">
                     <div class="card">
                         
@@ -153,6 +153,6 @@
                     </div>
                 </div>
             </div>
-    </form>
+        </form>
            
-</section>
+    </section>

@@ -199,7 +199,7 @@
                         <h3>Product Flow</h3>
                     </div>
                     <div class="tutorial-content">
-                        <img src="../static/images/product-grid-banner.jpg" alt="">
+                        <img src="../static/siteassets/img/OVENDA PROCESS-01.png" width=800 alt="">
                     </div>
                     <div class="button-container d-flex justify-content-center">
                         <a href="./registration.php" target="_blank"><button type="button" class="btn btn-warning btn-large">Start Selling</button></a>
@@ -236,6 +236,22 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam ratione fugit aperiam doloribus. Cupiditate doloribus vel optio nemo rerum.
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tut">
+    <div class="container  d-flex justify-content-center">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="banner">                    
+                    <div class="tutorial-content">
+                        <img src="../static/images/product-grid-banner.jpg" alt="">
+                    </div>
+                    <!-- <div class="button-container d-flex justify-content-center">
+                        <a href="./registration.php" target="_blank"><button type="button" class="btn btn-warning btn-large">Start Selling</button></a>
+                    </div> -->
                 </div>
             </div>
         </div>

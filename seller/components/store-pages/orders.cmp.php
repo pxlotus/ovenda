@@ -10,8 +10,8 @@
                             <table class="table table-hover mb-0">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th>Name</th>
-                                        <th data-breakpoints="sm xs">Order ID</th>
+                                        <!-- <th>Name</th> -->
+                                        <!-- <th data-breakpoints="sm xs">Order ID</th> -->
                                         <th>Image</th>
                                         <th>Product Name</th>
                                         <th data-breakpoints="xs">Amount</th>
@@ -22,10 +22,10 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Robert Hammer</td>
-                                        <td>#291989</td>
-                                        <td><img src="assets/images/ecommerce/1.png" width="48" alt="Product img"></td>
+                                        <!-- <td>Robert Hammer</td> -->
+                                        <!-- <td>#291989</td> -->
                                         <td><h5>Simple Black Clock</h5></td>
+                                        <td><img src="assets/images/ecommerce/1.png" width="48" alt="Product img"></td>                                        
                                         <td>$16.00</td>
                                         <td>01-05-2018</td>
                                         <td><span class="badge badge-success bg-success text-white">Paid</span></td>
@@ -35,10 +35,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Orlando Lentz</td>
-                                        <td>#291990</td>
-                                        <td><img src="assets/images/ecommerce/10.png" width="48" alt="Product img"></td>
+                                        <!-- <td>Orlando Lentz</td> -->
+                                        <!-- <td>#291990</td> -->
                                         <td><h5>Brone Candle</h5></td>
+                                        <td><img src="assets/images/ecommerce/10.png" width="48" alt="Product img"></td>                                        
                                         <td>$15.00</td>
                                         <td>7-05-2018</td>
                                         <td><span class="badge badge-danger bg-danger text-white">Failed</span></td>
@@ -48,10 +48,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Barbara Kelly</td>
-                                        <td>#291991</td>
-                                        <td><img src="assets/images/ecommerce/11.png" width="48" alt="Product img"></td>
+                                        <!-- <td>Barbara Kelly</td> -->
+                                        <!-- <td>#291991</td> -->
                                         <td><h5>Wood Simple Clock</h5></td>
+                                        <td><img src="assets/images/ecommerce/11.png" width="48" alt="Product img"></td>                                        
                                         <td>$16.00</td>
                                         <td>09-05-2018</td>
                                         <td><span class="badge badge-success bg-success text-white">Paid</span></td>
@@ -61,10 +61,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Brian Swader</td>
-                                        <td>#291992</td>
-                                        <td><img src="assets/images/ecommerce/5.png" width="48" alt="Product img"></td>
+                                        <!-- <td>Brian Swader</td> -->
+                                        <!-- <td>#291992</td> -->
                                         <td><h5>Unero Small Bag</h5></td>
+                                        <td><img src="assets/images/ecommerce/5.png" width="48" alt="Product img"></td>                                        
                                         <td>$23.00</td>
                                         <td>14-05-2018</td>
                                         <td><span class="badge badge-warning bg-warning text-white">Pending</span></td>

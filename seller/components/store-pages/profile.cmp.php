@@ -75,9 +75,10 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
+                    <!-- col-md-12 col-lg-6 -->
 
                     <div class="card">
-                        <div class="body">
+                        <div class="body profile-tags">
                             <ul class="nav nav-tabs-new d-flex justify-content-between">
                                 <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Overview">General Details</a></li>
                                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Settings">Business Details</a></li>

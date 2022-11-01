@@ -2119,7 +2119,8 @@
     --secondary-color: #87B70A;
     --secondary-color2: #AAD736;
     --link-color: #056CDB;
-    --primary-gradient: linear-gradient(45deg, #FF6A4A, #AAD736)
+    --primary-gradient:
+    linear-gradient(45deg, #FF6A4A, #AAD736)
 }
 
 [class="theme-red"] {
@@ -2939,7 +2940,7 @@ html.fullscreen-bg #wrapper {
 .card:hover,
 .card:focus-within,
 .card:focus {
-    border-color: var(--primary-color)
+    /* border-color: var(--primary-color); */
 }
 
 .card .header {
@@ -10739,3 +10740,30 @@ ul.list-connected-app>li:last-child .connected-app {
 .w100 {
     width: 100px
 }
+
+/* ---------------------------- */
+/* Custom Css */
+/* ----------------------------- */
+
+.card-status {
+    background-color: #00ffff;
+    border-radius: 45%;
+    width: auto;
+    height: 20px;
+  }
+
+
+/* billing/ finances */
+.bill-card .body {
+    justify-content: center;
+}
+.financials hr {
+    margin-top: 1px;
+    margin-bottom: none;
+}
+
+@media only screen and (min-width: 1028px){
+    .profile-tags {
+        font-size: 10px;
+    }
+} 

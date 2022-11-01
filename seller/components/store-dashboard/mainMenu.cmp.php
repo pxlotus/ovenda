@@ -56,14 +56,14 @@
                             <li>
                                 <a href="./orders.php"><i class="fa fa-puzzle-piece"></i><span>Orders</span></a>                               
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#uiElements"><i class="fa fa-diamond"></i><span>Customers</span></a>                                
+                            </li> -->
+                            <li>
+                                <a href="./finances.php"><i class="fa fa-area-chart"></i><span>Finances</span></a>                                
                             </li>
                             <li>
-                                <a href="#charts"><i class="fa fa-area-chart"></i><span>Finances</span></a>                                
-                            </li>
-                            <li>
-                                <a href="#forms"><i class="fa fa-pencil"></i><span>Reviews</span></a>                               
+                                <a href="./reviews.php"><i class="fa fa-pencil"></i><span>Reviews</span></a>                               
                             </li>
                             <li>
                                 <a href="#Tables" class="has-arrow"><i class="fa fa-table"></i><span>Tutorials</span></a>
